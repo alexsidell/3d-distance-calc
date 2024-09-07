@@ -1,0 +1,28 @@
+form.my-form {
+    display: table;
+}
+  
+div.my-form {
+display: table-row;
+}
+
+label,
+input,
+select {
+display: table-cell;
+margin-bottom: 10px;
+}
+
+label {
+padding-right: 10px;
+}
+
+section.my-form{
+    display: flex;
+}
+
+body {
+    background-image: url('DMG_background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

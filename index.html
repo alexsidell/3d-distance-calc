@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="my-form">
+        <form action="" method="" class="my-form" id="my-form">
+            <div class="my-form">
+                <label for="unit-select">Select a unit</label>
+                <select name="unit-select" id="unit-select">
+                    <option value="feet" selected>feet</option>
+                    <option value="meters">meters</option>
+                    <opton value="units">units</opton>
+                </select>
+            </div>
+            <div class="my-form">
+                <label for="input-a">A:</label>
+                <input type="number" name="input-a" id="input-a" required/>
+            </div>
+            <div class="my-form">
+                <label for="input-b">B:</label>
+                <input type="number" name="input-b" id="input-b" required/>
+            </div>
+            <div class="my-form">
+                <label for="input-c">C:</label>
+                <input type="number" name="input-c" id="input-c" required/>
+            </div>
+            <div class="my-form">
+                <input type="submit" value="Calculate">
+            </div>
+        </form>
+
+        <p id="output"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
